@@ -31,11 +31,12 @@ El primer acercamiento al robot _Phantom\_X_ se realizó con el software _Dynami
 
 Al mismo tiempo se hizo el análisis DH del robot, del cual se obtuvo:
 
-![image](https://user-images.githubusercontent.com/112737454/196836927-734ef862-16cc-4e60-9800-07227de1b50a.png)
+ ![Copia de Captura de pantalla 2022-10-19 203640](https://user-images.githubusercontent.com/112737454/196844235-8237576e-d5fe-4d32-89fc-ddba99498485.jpg)
 
+ 
 Con este análisis podemos comparar las posiciones obtenidas con el robot a las obtenidas en MatLab con la librería de Peter Corke.
  
-### 2) Conexión con ROS
+### 2) Conexión con Dynamixel 
   
   El primer paso fue la instalación de Dynamixel para la conexión del Robot con el PC. Para esto, se siguió el repositorio https://github.com/fegonzalez7/rob_unal_clase3, donde se explica, paso a paso, la instalación de Dynamixel Workbench. Este fue el resultado de la instalación:
   
@@ -51,4 +52,14 @@ Con este análisis podemos comparar las posiciones obtenidas con el robot a las 
   
   ![image](https://user-images.githubusercontent.com/112737454/196840206-6953ba82-a47c-4807-87ef-b14ee152394e.png)
 
-  
+ ### 3) Toolbox de MatLab
+ 
+ ### 4) Conexión entre Python y ROS. Ejecución de las secuencias en el robot.
+ Para hacer la conexión, se arranca el ROS y se crea un nodo. Despues se arranca eldinamyxel con ROS:
+ ```
+ roslaunch dynamixel_one_motor one_controller.launch
+ ```
+ 
+ 
+ ### 5) Comparación del Toolbox y del Phantom_X
+ 
