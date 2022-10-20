@@ -87,6 +87,7 @@ Después, para cada posición se halló el MTH y se graficó
 robot.teach([0 0 0 0], 'workspace', ws, 'noname');
 MTH1=robot.fkine([0 0 0 0])
 ```
+/home/santiago/Imágenes/Screenshot from 2022-10-20 00-17-39.png
 ![image](https://user-images.githubusercontent.com/112737454/196859782-1422c5f3-359d-47b7-8d7b-617b645ecccf.png)
 
 ```
