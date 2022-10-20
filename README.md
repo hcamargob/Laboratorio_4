@@ -180,20 +180,20 @@ if __name__ == '__main__':
  
  1. Posición 1 (0, 0, 0, 0, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196853903-63e5d1fe-7acd-41f6-a8ef-9686d57a5364.png) ![image](https://user-images.githubusercontent.com/112737454/196854527-f0cb7c1c-369d-4639-96fd-23f023c2e334.png)
+ ![image](https://user-images.githubusercontent.com/112737454/196853903-63e5d1fe-7acd-41f6-a8ef-9686d57a5364.png) ![image](https://user-images.githubusercontent.com/112737454/196857218-d375f103-4f54-4e94-b341-272be5c89306.png)
 
 2. Posición 2 (-20, 20, -20, 20, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196854910-4c3e1e55-25e0-48ae-83f7-bf1af57d7358.png)  ![image](https://user-images.githubusercontent.com/112737454/196854893-c074fdd2-787f-46ea-9f93-80c1fff4951e.png)
+ ![image](https://user-images.githubusercontent.com/112737454/196854910-4c3e1e55-25e0-48ae-83f7-bf1af57d7358.png)  ![image](https://user-images.githubusercontent.com/112737454/196857379-c52ae6c8-a812-4d75-b38f-eb6e8c2c6574.png)
  
 3. Posición 3 (30, -30, 30, -30, 0) 
  
- ![image](https://user-images.githubusercontent.com/112737454/196855324-d25f97d0-d75f-4367-bd98-569f3ad6942e.png) ![image](https://user-images.githubusercontent.com/112737454/196855186-1cd49bcb-637f-4a97-90cd-b06a190668fa.png)
+ ![image](https://user-images.githubusercontent.com/112737454/196855324-d25f97d0-d75f-4367-bd98-569f3ad6942e.png) ![image](https://user-images.githubusercontent.com/112737454/196857440-aecf5ff4-f0c8-4701-8798-5488bc762cdf.png)
 
 4. Posición 4 (-90, 15, -55, 17, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196855753-27fe0f05-bf9d-4446-aec2-f6534241598f.png)
- 
+ ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196857508-f065d857-8151-4aa9-b54a-84de72a6f8ed.png)
+	
 5. Posición 5 (-90, 45, -55, 45, 10)
 
- ![image](https://user-images.githubusercontent.com/112737454/196856277-e97b2096-7a2d-4945-be33-41f16863d380.png) ![image](https://user-images.githubusercontent.com/112737454/196856232-7af2b448-26b4-4148-b2be-73429d2fe359.png)
+ ![image](https://user-images.githubusercontent.com/112737454/196856277-e97b2096-7a2d-4945-be33-41f16863d380.png) ![image](https://user-images.githubusercontent.com/112737454/196857574-a368e546-7b6c-47f2-b5ea-29be8201e50f.png)
