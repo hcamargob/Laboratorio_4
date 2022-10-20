@@ -97,9 +97,21 @@ MTH2=robot.fkine([-20 20 -20 20]*pi/180)
 
 ```
 robot.teach([30 -30 30 -30]*pi/180, 'workspace', ws, 'noname');
-MTH2=robot.fkine([30 -30 30 -30]*pi/180)
+MTH3=robot.fkine([30 -30 30 -30]*pi/180)
 ```
+![image](https://user-images.githubusercontent.com/112737454/196860348-6efb887d-524d-4895-85c7-0d891fdd8455.png)
 
+```
+robot.teach([90 15 -55 17]*pi/180, 'workspace', ws, 'noname');
+MTH4=robot.fkine([90 15 -55 17]*pi/180)
+```
+![image](https://user-images.githubusercontent.com/112737454/196860497-4cbdb353-080d-4f15-84da-03ac7b7f62fc.png)
+
+```
+robot.teach([-90 45 -55 17]*pi/180, 'workspace', ws, 'noname');
+MTH5=robot.fkine([-90 45 -55 17]*pi/180)
+```
+![image](https://user-images.githubusercontent.com/112737454/196860617-170ba85f-c64e-43d0-b497-885aec79c6a4.png)
 
  ### 4) Conexión entre Python y ROS. Ejecución de las secuencias en el robot.
  Para hacer la conexión, se arranca el ROS para crear un nodo:
