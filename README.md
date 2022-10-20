@@ -53,7 +53,54 @@ Con este análisis podemos comparar las posiciones obtenidas con el robot a las 
   ![image](https://user-images.githubusercontent.com/112737454/196840206-6953ba82-a47c-4807-87ef-b14ee152394e.png)
 
  ### 3) Toolbox de MatLab
- 
+ En el toolbox de Matlab se realizó el cálculo de la cinemática directa del robot, y además se hallaron los MTH de cada posición propuesta.
+	
+```
+l1=45;l2=105;l3=105;l4=100;
+
+a1=0;a2=l2;a3=l3;a4=l4;
+alpha1=-pi/2;alpha2=0;alpha3=0;alpha4=0;
+d1=l1;d2=0;d3=0;d4=0;
+offset1=0;offset2=-pi/2;offset3=0;offset4=0;
+
+J1=Revolute('a',a1, 'alpha',alpha1, 'd',d1, 'offset',offset1);
+J2=Revolute('a',a2, 'alpha',alpha2, 'd',d2, 'offset',offset2);
+J3=Revolute('a',a3, 'alpha',alpha3, 'd',d3, 'offset',offset3);
+J4=Revolute('a',a4, 'alpha',alpha4, 'd',d4, 'offset',offset4);
+
+T=[ 0 0 1 0;
+    1 0 0 0;
+    0 1 0 0;
+    0 0 0 1];
+
+ws = [-150,150,-150,150,-50,500];
+robot = SerialLink([J1 J2 J3 J4], 'tool',T)
+```
+	
+Se obtuvo la tabla de análisis DH:
+	
+![image](https://user-images.githubusercontent.com/112737454/196859195-f9cb5272-b18d-47d1-9c55-6b9e049c2abd.png)
+
+Después, para cada posición se halló el MTH y se graficó
+
+```
+robot.teach([0 0 0 0], 'workspace', ws, 'noname');
+MTH1=robot.fkine([0 0 0 0])
+```
+![image](https://user-images.githubusercontent.com/112737454/196859782-1422c5f3-359d-47b7-8d7b-617b645ecccf.png)
+
+```
+robot.teach([-20 20 -20 20]*pi/180, 'workspace', ws, 'noname');
+MTH2=robot.fkine([-20 20 -20 20]*pi/180)
+```
+![image](https://user-images.githubusercontent.com/112737454/196859928-a75f93e8-09b8-4b1d-8fb2-85b5be4de58d.png)
+
+```
+robot.teach([30 -30 30 -30]*pi/180, 'workspace', ws, 'noname');
+MTH2=robot.fkine([30 -30 30 -30]*pi/180)
+```
+
+
  ### 4) Conexión entre Python y ROS. Ejecución de las secuencias en el robot.
  Para hacer la conexión, se arranca el ROS para crear un nodo:
  ```
