@@ -266,7 +266,8 @@ if __name__ == '__main__':
 
 4. Posición 4 (-90, 15, -55, 17, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196858053-cc6f114d-b1bf-46e1-9637-a20558cccae4.png)	
+ ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196858053-cc6f114d-b1bf-46e1-9637-a20558cccae4.png)
+	
 5. Posición 5 (-90, 45, -55, 45, 10)
 
  ![image](https://user-images.githubusercontent.com/112737454/196856277-e97b2096-7a2d-4945-be33-41f16863d380.png) ![image](https://user-images.githubusercontent.com/112737454/196857574-a368e546-7b6c-47f2-b5ea-29be8201e50f.png)
