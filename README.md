@@ -55,7 +55,12 @@ Con este análisis podemos comparar las posiciones obtenidas con el robot a las 
  ### 3) Toolbox de MatLab
  
  ### 4) Conexión entre Python y ROS. Ejecución de las secuencias en el robot.
- Para hacer la conexión, se arranca el ROS y se crea un nodo. Despues se arranca eldinamyxel con ROS:
+ Para hacer la conexión, se arranca el ROS para crear un nodo:
+ ```
+ roscore
+ ```
+ 
+ Despues se arranca el Dinamyxel con ROS en otra terminal:
  ```
  roslaunch dynamixel_one_motor one_controller.launch
  ```
