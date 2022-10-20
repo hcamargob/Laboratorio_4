@@ -124,8 +124,12 @@ MTH5=robot.fkine([-90 45 -55 17]*pi/180)
  roslaunch dynamixel_one_motor one_controller.launch
  ```
  
-La carpeta _catkin\_ws_, la cual se instaló en el laboratorio 2, se tiene acceso al paquete del robot, el cual se instaló en el paso 2. Dentro de esta carpeta están los archivos de Python a modificar. 
- Los archivos que se modifican están en la carpeta _config_ dentro del _catkin\_ws_, son _basic.yaml_ y _jointPub.py_
+En la carpeta _catkin\_ws_ está el workspace se encuentra la carpeta del proyecto. Dentro de esta carpeta están los archivos de Python a modificar. Los archivos que se modifican son: _basic.yaml_ que está dentro de la carpeta config y _jointPub.py_ que está dentro de la carpeta scripts. Para correr el código se abre otra terminal en la carpeta de scripts y se ejecuta el siguiente comando: 
+
+```
+python3 jointPub.py
+```
+Luego de esto ya se debería estar moviendo el robot
  
  _basic.yaml_:
  
