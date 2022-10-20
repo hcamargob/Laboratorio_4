@@ -129,7 +129,7 @@ En la carpeta _catkin\_ws_ está el workspace se encuentra la carpeta del proyec
 ```
 python3 jointPub.py
 ```
-Luego de esto ya se debería estar moviendo el robot
+Luego de esto ya se debería estar moviendo el robot.
  
  _basic.yaml_:
  
