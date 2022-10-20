@@ -27,7 +27,7 @@ Para cumplir satisfactoriamente los requerimientos y tareas propuestas, se sigui
 
 ![image](https://user-images.githubusercontent.com/112737454/196834382-76eb4269-14da-4f22-9edf-22de416b5bbd.png)
 
-El primer acercamiento al robot _Phantom\_X_ se realizó con el software _Dynamixel_ de ROS. Se modificó cada articulación y se fijo la opción de torque para que se mantuviera fija la articulación. Esta primera interacción fue satisfactoria y nos dió pie para arrancar la comunicación de ROS con Phyton.
+El primer acercamiento al robot _Phantom\_X_ se realizó con el software _Dynamixel_. Se modificó cada articulación y se fijo la opción de torque para que se mantuviera fija la articulación. Esta primera interacción fue satisfactoria y nos dió pie para arrancar la comunicación de ROS con Phyton.
 
 Al mismo tiempo se hizo el análisis DH del robot, del cual se obtuvo:
 
