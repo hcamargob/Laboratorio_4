@@ -184,7 +184,7 @@ if __name__ == '__main__':
 
 2. Posición 2 (-20, 20, -20, 20, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196854910-4c3e1e55-25e0-48ae-83f7-bf1af57d7358.png)  ![image](https://user-images.githubusercontent.com/112737454/196857379-c52ae6c8-a812-4d75-b38f-eb6e8c2c6574.png)
+ ![image](https://user-images.githubusercontent.com/112737454/196854910-4c3e1e55-25e0-48ae-83f7-bf1af57d7358.png)  ![image](https://user-images.githubusercontent.com/112737454/196857962-e847ae28-962b-481d-ab06-de73a279309b.png)
  
 3. Posición 3 (30, -30, 30, -30, 0) 
  
@@ -192,8 +192,7 @@ if __name__ == '__main__':
 
 4. Posición 4 (-90, 15, -55, 17, 0)
  
- ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196857508-f065d857-8151-4aa9-b54a-84de72a6f8ed.png)
-	
+ ![image](https://user-images.githubusercontent.com/112737454/196855806-80b89cca-7d81-4f7c-acd5-fb10b7a57785.png) ![image](https://user-images.githubusercontent.com/112737454/196858053-cc6f114d-b1bf-46e1-9637-a20558cccae4.png)	
 5. Posición 5 (-90, 45, -55, 45, 10)
 
  ![image](https://user-images.githubusercontent.com/112737454/196856277-e97b2096-7a2d-4945-be33-41f16863d380.png) ![image](https://user-images.githubusercontent.com/112737454/196857574-a368e546-7b6c-47f2-b5ea-29be8201e50f.png)
