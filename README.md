@@ -59,7 +59,8 @@ Con este análisis podemos comparar las posiciones obtenidas con el robot a las 
  ```
  roslaunch dynamixel_one_motor one_controller.launch
  ```
- 
+ [![Watch the video](https://user-images.githubusercontent.com/112737454/196849844-58cc59df-f25b-4c3b-8961-5bf24d616d12.png)](https://www.youtube.com/watch?v=_p8Cu-6cykE)
+
  
  ### 5) Comparación del Toolbox y del Phantom_X
  
