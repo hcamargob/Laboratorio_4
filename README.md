@@ -29,7 +29,7 @@ Para cumplir satisfactoriamente los requerimientos y tareas propuestas, se sigui
 
 El primer acercamiento al robot _Phantom\_X_ se realizó con el software _Dynamixel_. Se modificó cada articulación y se fijo la opción de torque para que se mantuviera fija la articulación. Esta primera interacción fue satisfactoria y nos dió pie para arrancar la comunicación de ROS con Phyton.
 
-Al mismo tiempo se hizo el análisis DH del robot, del cual se obtuvo:
+Al mismo tiempo se hizo el análisis DH del robot, para este caso no se tuvo en cuenta la articulación 5 ya que no es relevante para la posición de la herramienta, además por ahora no se cumple con la convención noa, ya que con los parámetros DH no es posible esta configuración, más adelante se verá como se puede corregir esto en matlab, ya que la herramienta no tiene que cumplir con las condiciones DH porque no hay articulación entre el último eslabón y la herramienta.
 
  ![Copia de Captura de pantalla 2022-10-19 203640](https://user-images.githubusercontent.com/112737454/196844235-8237576e-d5fe-4d32-89fc-ddba99498485.jpg)
 
