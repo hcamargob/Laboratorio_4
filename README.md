@@ -53,7 +53,7 @@ Con este análisis podemos comparar las posiciones obtenidas con el robot a las 
   ![image](https://user-images.githubusercontent.com/112737454/196840206-6953ba82-a47c-4807-87ef-b14ee152394e.png)
 
  ### 3) Toolbox de MatLab
- En el toolbox de Matlab se realizó el cálculo de la cinemática directa del robot, y además se hallaron los MTH de cada posición propuesta.
+En el toolbox de Matlab se realizó el cálculo de la cinemática directa del robot, y además se hallaron los MTH de cada posición propuesta. Para que el TCP cumpla con la convención noa fue necesario usar la propiedad tool de la función SerialLink() ya que en los parámetros DH no fue tenida en cuenta.
 	
 ```
 l1=45;l2=105;l3=105;l4=100;
