@@ -87,35 +87,41 @@ Después, para cada posición se halló el MTH y se graficó
 robot.teach([0 0 0 0], 'workspace', ws, 'noname');
 MTH1=robot.fkine([0 0 0 0])
 ```
-![image](https://user-images.githubusercontent.com/42346345/196863142-7e2abb04-3711-4b5b-bebc-a6b5dcf37155.png)
+![image](https://user-images.githubusercontent.com/112737454/196863117-2e44658b-7503-4162-929d-b32f6c13ddd9.png)
+
 ![image](https://user-images.githubusercontent.com/112737454/196859782-1422c5f3-359d-47b7-8d7b-617b645ecccf.png)
 
 ```
 robot.teach([-20 20 -20 20]*pi/180, 'workspace', ws, 'noname');
 MTH2=robot.fkine([-20 20 -20 20]*pi/180)
 ```
-![image](https://user-images.githubusercontent.com/42346345/196863272-31173e0e-09cd-4226-9dcb-56263a4e206e.png)
+![image](https://user-images.githubusercontent.com/112737454/196863178-fcf0c211-3418-4751-8bf4-f6bf77692cab.png)
+
 ![image](https://user-images.githubusercontent.com/112737454/196859928-a75f93e8-09b8-4b1d-8fb2-85b5be4de58d.png)
 
 ```
 robot.teach([30 -30 30 -30]*pi/180, 'workspace', ws, 'noname');
 MTH3=robot.fkine([30 -30 30 -30]*pi/180)
 ```
-![image](https://user-images.githubusercontent.com/42346345/196863330-46484d27-84c6-4e7a-97d0-ab5457c5c0ff.png)
+![image](https://user-images.githubusercontent.com/112737454/196863302-9526f28d-1f97-4b2a-996e-0133bac46074.png)
+
 ![image](https://user-images.githubusercontent.com/112737454/196860348-6efb887d-524d-4895-85c7-0d891fdd8455.png)
 
 ```
 robot.teach([90 15 -55 17]*pi/180, 'workspace', ws, 'noname');
 MTH4=robot.fkine([90 15 -55 17]*pi/180)
 ```
-![image](https://user-images.githubusercontent.com/42346345/196863381-96fa8b66-4434-44f9-829a-69ce6a700a8d.png)
+![image](https://user-images.githubusercontent.com/112737454/196863360-66a65187-fd20-462c-9c25-d6ad26fc5265.png)
+
 ![image](https://user-images.githubusercontent.com/112737454/196860497-4cbdb353-080d-4f15-84da-03ac7b7f62fc.png)
 
 ```
 robot.teach([-90 45 -55 17]*pi/180, 'workspace', ws, 'noname');
 MTH5=robot.fkine([-90 45 -55 17]*pi/180)
 ```
-![image](https://user-images.githubusercontent.com/42346345/196863418-d4cdee01-a039-4d73-9142-02fad5d0f952.png)
+![image](https://user-images.githubusercontent.com/112737454/196863424-839c641a-1725-40da-963d-5b3f38f42d94.png)
+
+
 ![image](https://user-images.githubusercontent.com/112737454/196860617-170ba85f-c64e-43d0-b497-885aec79c6a4.png)
 
  ### 4) Conexión entre Python y ROS. Ejecución de las secuencias en el robot.
